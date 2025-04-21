@@ -10,7 +10,7 @@ pub use defragmentation::*;
 pub use pool::*;
 pub use virtual_block::*;
 
-use ash::prelude::VkResult;
+use ash::VkResult;
 use ash::vk;
 use std::mem;
 

@@ -1,6 +1,6 @@
 use crate::ffi;
 use crate::Allocator;
-use ash::prelude::VkResult;
+use ash::VkResult;
 use ash::vk;
 
 pub use ffi::VmaDefragmentationMove as DefragmentationMove;
